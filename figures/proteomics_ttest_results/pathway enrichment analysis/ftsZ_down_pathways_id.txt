@@ -1,0 +1,46 @@
+Pathways	p-values	Matches
+Proteinogenic Amino Acid Biosynthesis	4.2963934e-6	argJ // argA // argB // astC // argG // pheA // lysC // dapF // gatB // gatC // hisH // asnB // hisZ // hisC // serC // leuC // leuD // leuB // glyA-II // PP_3191 // ilvA-I // ilvA-II // PP_3365 // lpdG // gcvP-II // proC // proI // PP_3190 // cysNC // cysD // metX // PP_2528 // metE // trpA // trpB // trpE // trpD // iscS-I // cysM // PP_3148 // PP_4399 // glnA
+Carbohydrate Degradation	1.0459929e-5	PP_1776 // fruK // algC // pgm // eno // PP_3443 // gapB // gapA // pgl // edd // eda // PP_3383 // PP_3384 // kguD // kguK // aacs // bktB // glgP // nagZ
+Amino Acid Biosynthesis	2.8722685e-5	argJ // argA // argB // astC // argG // pheA // glyA-II // serC // PP_3191 // ilvA-I // ilvA-II // PP_3365 // leuC // leuD // leuB // lysC // dapF // gatB // gatC // hisH // asnB // hisZ // hisC // lpdG // gcvP-II // proC // proI // alr // PP_3190 // metX // PP_2528 // cysNC // cysD // metE // trpA // trpB // trpE // trpD // iscS-I // cysM // PP_3148 // PP_4399 // glnA
+Sugar Degradation	3.9863087e-5	PP_1776 // fruK // algC // pgm // eno // PP_3443 // gapB // gapA // pgl // edd // eda // PP_3383 // PP_3384 // kguD // kguK // aacs // bktB
+TCA cycle I (prokaryotic)	0.0034783706	sdhA // idh // mqo1 // mqo2 // acnB // sucB // lpdG // sucD // fumC1
+TCA cycle	0.0034783706	sdhA // idh // mqo1 // mqo2 // acnB // sucB // lpdG // sucD // fumC1
+Polymeric Compound Degradation	0.004159682	algC // pgm // glgP // kguK // nagZ
+Polysaccharide Degradation	0.004159682	algC // pgm // glgP // kguK // nagZ
+Entner-Doudoroff Pathways	0.0057182843	eno // PP_3443 // gapB // gapA // pgl // edd // eda
+Entner-Doudoroff pathway I	0.0057182843	eno // PP_3443 // gapB // gapA // pgl // edd // eda
+superpathway of branched chain amino acid biosynthesis	0.008778182	PP_3191 // ilvA-I // ilvA-II // PP_3365 // leuC // leuD // leuB
+glucose metabolism (<i>Pseudomonas putida</i>)	0.012002178	edd // eda // pgl // PP_3383 // PP_3384 // kguD // kguK // eno // PP_3443 // gapB // gapA
+Glycolysis	0.012002178	edd // eda // pgl // PP_3383 // PP_3384 // kguD // kguK // eno // PP_3443 // gapB // gapA
+Sugar Nucleotide Biosynthesis	0.013282927	algC // pgm // cpsG // PP_1776 // glmM // glmS // glmU // rmlC // kdsB
+UDP-sugar Biosynthesis	0.014111538	algC // pgm // glmM // glmS // glmU
+Acetyl-CoA Biosynthesis	0.015367878	aceE // lpdG // aceF
+L-glutamine Biosynthesis	0.015367878	PP_3148 // PP_4399 // glnA
+pyruvate decarboxylation to acetyl CoA	0.015367878	aceE // lpdG // aceF
+L-glutamine biosynthesis I	0.015367878	PP_3148 // PP_4399 // glnA
+glucose degradation (oxidative)	0.016419059	PP_3383 // PP_3384 // kguD // kguK
+L-tryptophan biosynthesis	0.016419059	trpA // trpB // trpE // trpD
+L-tryptophan Biosynthesis	0.016419059	trpA // trpB // trpE // trpD
+Sugar Biosynthesis	0.023040017	algC // pgm // cpsG // PP_1776 // eno // PP_3443 // gapB // gapA // glmM // glmS // glmU // rmlC // kdsB
+Entner-Doudoroff shunt	0.026876919	edd // eda
+selenate reduction	0.026876919	cysD // cysNC
+sulfate activation for sulfonation	0.026876919	cysNC // cysD
+L-homocysteine biosynthesis	0.026876919	metX // PP_2528
+Selenium Metabolism	0.026876919	cysD // cysNC
+L-leucine Biosynthesis	0.033794962	leuC // leuD // leuB
+L-threonine degradation I	0.033794962	PP_3191 // ilvA-I // ilvA-II
+L-leucine biosynthesis	0.033794962	leuC // leuD // leuB
+glycogen degradation II	0.033794962	algC // pgm // glgP
+UDP-<i>N</i>-acetyl-D-glucosamine biosynthesis I	0.033794962	glmM // glmS // glmU
+Inosine-5'-phosphate Biosynthesis	0.033794962	purE // purH // purC
+UDP-<i>N</i>-acetyl-D-glucosamine Biosynthesis	0.033794962	glmM // glmS // glmU
+Glycogen Degradation	0.033794962	algC // pgm // glgP
+tRNA processing	0.033794962	rne // rnd // rnr
+L-methionine biosynthesis III	0.033794962	metX // PP_2528 // metE
+Glycan Degradation	0.033794962	algC // pgm // glgP
+inosine-5'-phosphate biosynthesis I	0.033794962	purE // purH // purC
+Biosynthesis	0.037213862	pheA // iscS-I // speA // speC // fabZ // fabG // cpsG // algC // PP_1776 // aroQ-II // aroE // fadD1 // lpxD // aroF-I // kdsB // leuC // leuD // leuB // ribAB-I // PP_0063 // suhB // cobB // cobJ // ispA // uppS // cysNC // cysD // metX // PP_2528 // metE // lysC // cysM // PP_3148 // PP_4399 // glnA // bktB // PP_0763 // PP_1348 // thiC // hisZ // hisH // hisC // hemA // eno // PP_3443 // gapB // gapA // purE // purH // purC // bioB // bioF // pyrB // nfnB // rmlC // serC // pdxB // glyA-II // lpdG // gcvP-II // dut // purN // folP // guaB // dapF // xpt // murC // queE // PP_3191 // ilvA-I // ilvA-II // PP_3365 // hscA // cyaY // pvdD // pvdQ // pvdP // pvdO // glmM // glmS // glmU // metG // hisS // lysS // pheS // thrS // tyrS // leuS // ileS // glnS // trpA // trpB // trpE // trpD // gatB // gatC // asnB // proC // proI // lipA // PP_3190 // PP_2320 // ftsI // dacA // murG // purU-II // pgm // moaA // astC // argB // argJ // argA // argG // dfp // coaX // alr // purM
+L-Ornithine Biosynthesis	0.04512215	astC // argB // argJ // argA
+L-ornithine biosynthesis I	0.04512215	astC // argB // argJ // argA
+L-arginine biosynthesis II (acetyl cycle)	0.047405913	argJ // argA // argB // astC // argG
+Generation of Precursor Metabolites and Energy	0.049837314	edd // eda // pgl // PP_3383 // PP_3384 // kguD // kguK // eno // PP_3443 // gapB // gapA // sdhA // nuoF // nuoI // aceE // lpdG // aceF // idh // mqo1 // mqo2 // acnB // sucB // sucD // fumC1

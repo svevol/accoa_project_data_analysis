@@ -1,0 +1,30 @@
+Pathways	p-values	Matches
+glucose degradation (oxidative)	2.1576654e-4	PP_3382 // PP_3383 // PP_3384 // kguD // kguK
+L-lysine Degradation	2.2705177e-4	PP_4108 // dpkA // amaD // alr // davT // davD // davA
+Amino Acid Biosynthesis	0.0019716788	argJ // argB // argG // ilvA-I // ilvA-II // PP_3365 // ilvE // leuA // lysC // dapA-II // dapC // gatC // hisH // asnB // hisZ // PP_3724 // lpdG // proC // ltaE // alr // PP_3190 // metX // PP_2528 // cysI // trpE // alaA // glnA
+Proteinogenic Amino Acid Biosynthesis	0.0022104462	argJ // argB // argG // lysC // dapA-II // dapC // gatC // hisH // asnB // hisZ // leuA // ilvE // ilvA-I // ilvA-II // PP_3365 // lpdG // proC // ltaE // PP_3190 // cysI // metX // PP_2528 // trpE // alaA // glnA
+Sugar Acid Degradation	0.0078886915	PP_3382 // PP_3383 // PP_3384 // kguD // kguK // eda
+L-lysine degradation V	0.009866621	PP_4108 // dpkA // amaD // alr
+L-lysine degradation IV	0.009870843	davT // davD // davA
+Carbohydrate Degradation	0.011034243	algC // PP_3443 // gapA // eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // glgP
+Amino Acid Fermentation (Stickland reactions)	0.011129538	PP_4635 // ilvE
+Stickland Fermentation (Reductive Branch)	0.011129538	PP_4635 // ilvE
+L-leucine degradation IV (Stickland reaction)	0.011129538	PP_4635 // ilvE
+L-homocysteine biosynthesis	0.011129538	metX // PP_2528
+Sugar Degradation	0.01660269	algC // PP_3443 // gapA // eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK
+glucose metabolism (<i>Pseudomonas putida</i>)	0.01766361	eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_3443 // gapA
+Glycolysis	0.01766361	eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_3443 // gapA
+lipid IV<sub>A</sub> biosynthesis (P. putida)	0.018227478	lpxA // lpxD // lpxH
+L-threonine Degradation	0.018227478	ltaE // ilvA-I // ilvA-II
+superpathway of branched chain amino acid biosynthesis	0.020461915	ilvA-I // ilvA-II // PP_3365 // ilvE // leuA
+Proteinogenic Amino Acid Degradation	0.021782137	ilvE // speA // proC // ansA // ltaE // ilvA-I // ilvA-II // lpdG // PP_4108 // dpkA // amaD // alr // gatC // hisH // asnB // davT // davD // davA // PP_4635 // PP_3190
+Other Amino Acid Biosynthesis	0.027289184	PP_3724 // alr // metX // PP_2528 // lysC // gatC // hisH // asnB // argB // argJ
+Lipopolysaccharide Biosynthesis	0.02946399	lpxA // lpxD // lpxH
+L-isoleucine biosynthesis I (from threonine)	0.030146621	ilvA-I // ilvA-II // PP_3365 // ilvE
+D-galacturonate degradation I	0.031069959	eda // kguK
+Urate Degradation	0.031069959	pucL // puuD
+urate conversion to allantoin I	0.031069959	pucL // puuD
+Carboxylate Degradation	0.037750833	eda // PP_2217 // gcdH // aceE // lpdG // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_3724 // glcB
+Amino Acid Degradation	0.0384817	ilvE // speA // proC // ansA // ltaE // ilvA-I // ilvA-II // PP_3190 // lpdG // PP_4108 // dpkA // amaD // alr // gatC // hisH // asnB // davT // davD // davA // PP_4635
+Polymeric Compound Degradation	0.043563962	algC // glgP // kguK
+Polysaccharide Degradation	0.043563962	algC // glgP // kguK

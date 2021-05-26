@@ -18,14 +18,14 @@ z
 " style="fill:none;"/>
   </g>
   <g id="axes_1">
-   <g clip-path="url(#pd23483f608)">
-    <image height="21" id="image7357f0e58b" transform="scale(1 -1)translate(0 -21)" width="62" x="9.9" xlink:href="data:image/png;base64,
-iVBORw0KGgoAAAANSUhEUgAAAD4AAAAVCAYAAAAeql2xAAAABHNCSVQICAgIfAhkiAAAADpJREFUWIXtz0ERwCAAwLAxvOD/DoEgg0caBe3Yc50P9L8OeKVxTeOaxjWNaxrXNK5pXNO4pnENO34BpL8CBamqU/8AAAAASUVORK5CYII=" y="-28.632"/>
+   <g clip-path="url(#pb0f9583ee9)">
+    <image height="21" id="image42245b0b94" transform="scale(1 -1)translate(0 -21)" width="62" x="9.9" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAD4AAAAVCAYAAAAeql2xAAAABHNCSVQICAgIfAhkiAAAAExJREFUWIXtz7ENgDAUxNBLxmUR5kyXAlGAlJYs8RtkvwEsud3n8aXYO2Zpb11PaS9JennxJxyncZzGcRrHaRyncZzGcRrHaRynwY5vMnIImBBB9p0AAAAASUVORK5CYII=" y="-28.632"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pd23483f608">
+  <clipPath id="pb0f9583ee9">
    <rect height="20.46" width="61.38" x="9.9" y="29.172"/>
   </clipPath>
  </defs>
