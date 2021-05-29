@@ -1,0 +1,136 @@
+# Text based model representation
+# Format: "Reaction id : substrates --> products [lower bound, upper bound]"
+# valid identifiers can contain letters, numbers or underscore (_) but must begin with a letter (for SBML compatibility)
+# Use --> or <-> for irreversible or reversible reactions respectively
+# bounds are optional and can be specified only in one direction, eg: [-10.0,]
+# begin with # to comment out any line
+#
+#
+# glc_D_e to g6p_c
+#
+R_GLCabcpp: m_glc__D_p + m_atp_c + m_h2o_c <-> m_glc__D_c + m_adp_c + m_pi_c
+R_GLK: m_glc__D_c + m_atp_c <-> m_adp_c + m_g6p_c
+#
+# glcn_e to 6pgc_c
+#
+#R_GLCNtex: m_glcn_e <-> m_glcn_p
+R_GLCNt2rpp: m_glcn_p <-> m_glcn_c
+R_GNK: m_atp_c + m_glcn_c <-> m_adp_c + m_6pgc_c
+#
+# 2dhglcn_e to 6pgc_c
+#
+#R_2DHGLCNtex: m_2dhglcn_e <-> m_2dhglcn_p
+R_2DHGLCNkt_tpp: m_2dhglcn_p <-> m_2dhglcn_c
+R_2DHGLCK: m_atp_c + m_2dhglcn_c <-> m_adp_c + m_6p2dhglcn_c
+R_PGLCNDH_NAD: m_6p2dhglcn_c + m_nadh_c <-> m_6pgc_c + m_nad_c
+R_PGLCNDH_NADP: m_6p2dhglcn_c + m_nadph_c <-> m_6pgc_c + m_nadp_c
+#
+# glucose to the other 2 pathways
+#
+R_GLCDpp: m_glc__D_p + m_q8_c <-> m_glcn_p + m_q8h2_c
+R_GAD2ktpp: m_glcn_p + m_q8_c <-> m_q8h2_c + m_2dhglcn_p
+#
+# pentose-phosphate pathway
+#
+R_G6PDH2_NAD: m_g6p_c + m_nad_c <-> m_6pgl_c + m_nadh_c
+R_G6PDH2_NADP: m_g6p_c + m_nadp_c <-> m_6pgl_c + m_nadph_c
+R_PGL: m_6pgl_c + m_h2o_c <-> m_6pgc_c
+R_GND_NAD: m_nad_c + m_6pgc_c <-> m_nadh_c + m_co2_c + m_ru5p__D_c
+R_GND_NADP: m_nadp_c + m_6pgc_c <-> m_nadph_c + m_co2_c + m_ru5p__D_c
+R_RPI: m_ru5p__D_c <-> m_r5p_c
+R_RPE: m_ru5p__D_c <-> m_xu5p__D_c
+R_TKT1: m_r5p_c + m_xu5p__D_c <-> m_g3p_c + m_s7p_c
+R_TKT2: m_e4p_c + m_xu5p__D_c --> m_f6p_c + m_g3p_c
+#R_TKT2: m_xu5p__D_c + m_e4p_c <-> m_f6p_c + m_g3p_c
+R_TALA: m_g3p_c + m_s7p_c <-> m_e4p_c + m_f6p_c
+#
+# ED pathway
+#
+R_EDD: m_6pgc_c <-> m_2ddg6p_c + m_h2o_c
+R_EDA: m_2ddg6p_c <-> m_g3p_c + m_pyr_c
+#
+# EMP pathway
+#
+R_PGI: m_f6p_c <-> m_g6p_c
+R_FBP: m_fdp_c + m_h2o_c <-> m_pi_c + m_f6p_c
+R_FBA: m_g3p_c + m_dhap_c <-> m_fdp_c
+R_TPI: m_g3p_c <-> m_dhap_c
+R_GAPD_NAD: m_pi_c + m_nad_c + m_g3p_c <-> m_nadh_c + m_13dpg_c
+R_GAPD_NADP: m_pi_c + m_nadp_c + m_g3p_c <-> m_nadph_c + m_13dpg_c
+R_PGK: m_adp_c + m_13dpg_c <-> m_atp_c + m_3pg_c
+R_PGM: m_3pg_c <-> m_2pg_c
+R_ENO: m_2pg_c <-> m_pep_c + m_h2o_c
+R_PYK: m_adp_c + m_pep_c <-> m_atp_c + m_pyr_c
+#
+# TCA cycle
+#
+R_PDH: m_pyr_c + m_coa_c + m_nad_c <-> m_co2_c + m_nadh_c + m_accoa_c
+R_OAADC: m_pyr_c + m_co2_c <-> m_oaa_c
+R_PPC: m_pi_c + m_oaa_c <-> m_pep_c + m_co2_c + m_h2o_c
+R_ME2_NADP: m_nadp_c + m_mal__L_c <-> m_pyr_c + m_nadph_c + m_co2_c
+R_ME2_NAD: m_nad_c + m_mal__L_c <-> m_pyr_c + m_nadh_c + m_co2_c
+R_MDH_NAD: m_nad_c + m_mal__L_c <-> m_oaa_c + m_nadh_c
+R_MDH_NADP: m_nadp_c + m_mal__L_c <-> m_oaa_c + m_nadph_c
+R_FUM: m_fum_c + m_h2o_c <-> m_mal__L_c
+R_SUCDi: m_q8_c + m_succ_c <-> m_fum_c + m_q8h2_c
+R_SUCOAS: m_pi_c + m_adp_c + m_succoa_c <-> m_succ_c + m_atp_c + m_coa_c
+R_AKGDH: m_nad_c + m_coa_c + m_akg_c <-> m_succoa_c + m_nadh_c + m_co2_c
+R_ICDHyr_NADP: m_nadp_c + m_icit_c <-> m_akg_c + m_co2_c + m_nadph_c
+R_ICDHyr_NAD: m_nad_c + m_icit_c <-> m_akg_c + m_co2_c + m_nadh_c
+R_ACONTa: m_cit_c <-> m_acon_C_c + m_h2o_c
+R_ACONTb: m_acon_C_c + m_h2o_c <-> m_icit_c
+R_CS: m_h2o_c + m_accoa_c + m_oaa_c <-> m_cit_c + m_coa_c
+#
+# 
+# glyoxylate shunt
+#R_ICL: m_icit_c <-> m_glx_c + m_succ_c
+#R_MALS: m_accoa_c + m_glx_c + m_h2o_c <-> m_coa_c + m_mal__L_c
+#
+#
+# accoa reactions
+R_ACCOAC: m_accoa_c + m_atp_c + m_hco3_c <-> m_adp_c + m_malcoa_c + m_pi_c
+R_KAS15: m_accoa_c + m_malACP_c <-> m_actACP_c + m_co2_c + m_coa_c
+R_MCOATA: m_ACP_c + m_malcoa_c <-> m_coa_c + m_malACP_c
+#
+#
+# oxidative phosphorylation
+#R_CYTBO3_4pp: 4 m_h_c + 0.5 m_o2_c + m_q8h2_c <-> m_h2o_c + 4 m_h_p + m_q8_c
+#R_NADH16pp: 4 m_h_c + m_nadh_c + m_q8_c <-> 3 m_h_p + m_nad_c + m_q8h2_c
+#R_ATPS4rpp: m_adp_c + 4 m_h_p + m_pi_c <-> m_atp_c + m_h2o_c + 3 m_h_c
+#
+R_OPNAD: m_nadh_c + m_q8_c + 1.875 m_adp_c + 1.875 m_pi_c <-> m_nad_c  + m_q8h2_c + 1.875 m_atp_c + 1.875 m_h2o_c
+R_OPQ8: m_q8h2_c + 1.875 m_adp_c + 1.875 m_pi_c + 0.5 m_o2_c <-> m_q8_c + 1.875 m_atp_c + 2.88 m_h2o_c
+#
+#
+# cofactor regeneration
+R_AXPr: m_atp_c <-> m_adp_c + m_pi_c
+R_NADHr: m_nadh_c <-> m_nad_c
+R_NADPHr: m_nadph_c <-> m_nadp_c
+R_ACCOAr: m_accoa_c <-> m_coa_c
+R_Q8H2r: m_q8h2_c <-> m_q8_c
+#
+#
+# exchange reactions
+#
+R_GLCtex: m_glc__D_e <-> m_glc__D_p
+R_EX_pyr: m_pyr_c <-> m_pyr_e
+R_EX_pep: m_pep_c <-> m_pep_e
+R_EX_g6p: m_g6p_c <-> m_g6p_e
+R_EX_r5p: m_r5p_c <-> m_r5p_e
+R_EX_g3p: m_g3p_c <-> m_g3p_e
+R_EX_e4p: m_e4p_c <-> m_e4p_e
+R_EX_f6p: m_f6p_c <-> m_f6p_e
+R_EX_3pg: m_3pg_c <-> m_3pg_e
+R_EX_oaa: m_oaa_c <-> m_oaa_e
+R_EX_malL: m_mal__L_c <-> m_mal__L_e
+R_EX_akg: m_akg_c <-> m_akg_e
+R_EX_succ: m_succ_c <-> m_succ_e
+R_EX_ru5p__D: m_ru5p__D_c <-> m_ru5p__D_e
+R_EX_fum: m_fum_c <-> m_fum_e
+R_EX_s7p: m_s7p_c <-> m_s7p_e
+R_EX_13dpg: m_13dpg_c <-> m_13dpg_e
+R_EX_dhap: m_dhap_c <-> m_dhap_e
+R_EX_amp_in: m_amp_i <-> m_amp_c
+R_EX_amp_out: m_amp_c <-> m_amp_e
+
+

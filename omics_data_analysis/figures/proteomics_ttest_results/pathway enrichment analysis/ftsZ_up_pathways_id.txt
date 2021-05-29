@@ -1,0 +1,45 @@
+Pathways	p-values	Matches
+L-valine degradation I	2.9606776e-6	mmsA-I // mmsA-II // lpdV // bkdB // bkdAA // mmsB // acd
+L-valine Degradation	2.9606776e-6	mmsA-I // mmsA-II // lpdV // bkdB // bkdAA // mmsB // acd
+Pyrimidine Nucleobase Degradation	1.47874e-4	PP_0614 // hyuC // pydX // pydA
+Uracil Degradation	1.47874e-4	PP_0614 // hyuC // pydX // pydA
+thymine degradation	1.47874e-4	PP_0614 // hyuC // pydX // pydA
+uracil degradation I (reductive)	1.47874e-4	PP_0614 // hyuC // pydX // pydA
+Degradation/Utilization/Assimilation	2.2459161e-4	folD-I // fdoG // fadBA // PP_2213 // PP_2215 // acd // PP_1845 // pta // acsA-II // PP_0614 // hyuC // pydX // pydA // putA // peaD // peaC // peaA // gcvT-I // mmsA-I // mmsA-II // mvaB // ssuE // aroQ-I // cysK // PP_2531 // PP_2932 // arcC // argF // PP_3602 // glxR // argH // paaZ // mmgF // prpC // pcaD // mdh // icd // curA // allE // lpdV // bkdB // bkdAA // mmsB // purU-III // frmA // fdhA // eutB // amiC
+methylamine degradation I	4.2726027e-4	peaD // peaC // peaA
+Methylamine Degradation	4.2726027e-4	peaD // peaC // peaA
+&beta; Alanine Biosynthesis	0.0011743467	PP_0614 // hyuC // pydX // pydA // PP_2213
+Propanoate Degradation	0.0011743467	mmsA-I // mmsA-II // mmgF // prpC // PP_2213
+allantoin degradation to ureidoglycolate II (ammonia producing)	0.0016148486	allE // PP_0614 // hyuC
+2-oxoisovalerate decarboxylation to isobutanoyl-CoA	0.0016148486	lpdV // bkdB // bkdAA
+Allantoin Degradation	0.0038153105	allE // PP_0614 // hyuC
+allantoin degradation to glyoxylate III	0.0038153105	allE // PP_0614 // hyuC
+Pyrimidine Nucleotide Degradation	0.005075007	PP_0614 // hyuC // pydX // pydA // PP_2531
+Other Amino Acid Degradation	0.0067656795	PP_3602 // mmsA-I // mmsA-II // arcC // argF
+Carboxylate Degradation	0.008429363	pta // acsA-II // fadBA // PP_2215 // PP_3602 // mmsA-I // mmsA-II // mmgF // prpC // PP_2213 // glxR
+Formaldehyde Oxidation	0.009662605	purU-III // folD-I // frmA // fdhA
+Amine and Polyamine Degradation	0.011125414	pta // eutB // peaD // peaC // peaA // allE // PP_0614 // hyuC
+C1 Compound Utilization and Assimilation	0.01126135	purU-III // folD-I // frmA // fdhA // fdoG
+reactive oxygen species degradation	0.011933194	katG // PP_1686 // PP_0777
+Reactive Oxygen Species Degradation	0.011933194	katG // PP_1686 // PP_0777
+&beta;-alanine degradation II	0.016372614	mmsA-I // mmsA-II
+glutathione-peroxide redox reactions	0.016372614	PP_1686 // PP_0777
+&beta;-Alanine Degradation	0.016372614	mmsA-I // mmsA-II
+Folate Transformations	0.017462485	glyA-I // folD-I // gcvT-I // folA // purU-III
+2-Methylcitrate Cycle	0.018054293	mmgF // prpC // PP_2213
+2-methylcitrate cycle I	0.018054293	mmgF // prpC // PP_2213
+Other Amino Acid Biosynthesis	0.027394831	PP_0614 // hyuC // pydX // pydA // PP_2213 // putA // argF // argE
+Respiration	0.030834546	petA // putA // chrR // qor-I // lpdV // bkdB // bkdAA
+folate polyglutamylation	0.031130379	glyA-I // folD-I
+propanoyl-CoA degradation II	0.031130379	mmsA-I // mmsA-II
+Nucleoside and Nucleotide Degradation	0.04179002	PP_0614 // hyuC // pydX // pydA // PP_2531
+oleate &beta;-oxidation	0.04179002	PP_2215 // fadBA // acd // PP_2213 // PP_1845
+folate transformations I	0.042042773	glyA-I // folD-I // purU-III // gcvT-I
+<i>N</i><sup>10</sup>-formyl-tetrahydrofolate biosynthesis	0.042042773	glyA-I // folD-I // gcvT-I // folA
+Fatty Acid Degradation	0.04830907	PP_1845 // fadBA // PP_2213 // PP_2215 // acd
+formaldehyde oxidation VII (THF pathway)	0.049340423	purU-III // folD-I
+NADH to cytochrome <i>bd</i> oxidase electron transfer II	0.049340423	chrR // qor-I
+L-isoleucine Degradation	0.049340423	acd // PP_2215
+superpathway of acetate utilization and formation	0.049340423	pta // acsA-II
+L-citrulline degradation	0.049340423	arcC // argF
+L-isoleucine degradation I	0.049340423	acd // PP_2215

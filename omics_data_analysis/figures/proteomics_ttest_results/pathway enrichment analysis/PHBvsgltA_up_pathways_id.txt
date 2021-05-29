@@ -1,0 +1,52 @@
+Pathways	p-values	Matches
+Carbohydrate Degradation	4.796458e-5	pgm // pykA // pgl // eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // aacs // bktB // malQ // glgP
+glucose degradation (oxidative)	1.0253576e-4	PP_3382 // PP_3383 // PP_3384 // kguD // kguK
+Sugar Degradation	3.8825098e-4	pgm // pykA // pgl // eda // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // aacs // bktB
+Carboxylate Degradation	4.4534734e-4	eda // acsA-I // bktB // pcaI // aceE // lpdG // aceF // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // mmgF // pykA // PP_2036
+Sugar Acid Degradation	5.745609e-4	PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_2036 // eda
+glucose metabolism (<i>Pseudomonas putida</i>)	0.0017916854	eda // pgl // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // rpiA // pykA
+Glycolysis	0.0017916854	eda // pgl // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // rpiA // pykA
+Generation of Precursor Metabolites and Energy	0.0018006979	eda // pgl // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // rpiA // pykA // nuoI // aceE // lpdG // aceF // icd // mqo1 // sucB // fumC2 // aceA // tal
+Acetyl-CoA Biosynthesis	0.0027395077	aceE // lpdG // aceF
+pyruvate decarboxylation to acetyl CoA	0.0027395077	aceE // lpdG // aceF
+Polymeric Compound Degradation	0.0033985162	malQ // pgm // glgP // kguK
+Polysaccharide Degradation	0.0033985162	malQ // pgm // glgP // kguK
+L-glutamine degradation I	0.00402228	gatB // gatC // guaA // carA // gltD
+L-glutamine Degradation	0.00402228	gltD // gatB // gatC // guaA // carA
+<i>S</i>-adenosyl-L-methionine cycle II	0.006396588	metE // ahcY // metK
+<i>S</i>-adenosyl-L-methionine Biosynthesis	0.006396588	metE // ahcY // metK
+glycogen degradation II	0.006396588	malQ // pgm // glgP
+Glycogen Degradation	0.006396588	malQ // pgm // glgP
+tRNA processing	0.006396588	rne // rnd // rnr
+L-citrulline degradation	0.006396588	arcC // carA // arcB
+Glycan Degradation	0.006396588	malQ // pgm // glgP
+L-citrulline biosynthesis	0.006585824	arcB // gatB // gatC // guaA // carA // gltD
+L-citrulline Biosynthesis	0.006585824	arcB // gatB // gatC // guaA // carA // gltD
+L-asparagine Biosynthesis	0.008096599	gatB // gatC // guaA // carA // gltD
+L-asparagine biosynthesis III (tRNA-dependent)	0.008096599	gatB // gatC // guaA // carA // gltD
+L-methionine degradation I (to L-homocysteine)	0.008215172	ahcY // metK
+Secondary Metabolite Degradation	0.010443731	vdh // PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_2036 // eda
+glutaminyl-tRNA<sup>gln</sup> biosynthesis via transamidation	0.010940734	gatB // gatC // guaA // carA // gltD
+Degradation/Utilization/Assimilation	0.011497035	bktB // eda // fadD1 // acsA-I // pcaI // aceE // lpdG // aceF // davA // glnA // malQ // pgm // glgP // PP_0596 // gltD // kguK // ssuD // aruH // arcC // carA // arcB // gloA // PP_2036 // proC // proI // pykA // vdh // argG // mmgF // pcaC // icd // mqo1 // sucB // fumC2 // pgl // PP_1389 // ahcY // metK // PP_1143 // betA-II // betB // gatB // gatC // guaA // puuD // PP_3382 // PP_3383 // PP_3384 // kguD // aacs
+L-arginine degradation V (arginine deiminase pathway)	0.011951953	arcC // carA // arcB
+Nitrogen Compound Metabolism	0.014401005	carA // argG // arcB // gltD // glnA
+Sugar Derivative Degradation	0.01471858	PP_3382 // PP_3383 // PP_3384 // kguD // kguK // PP_2036 // eda
+Proteinogenic Amino Acid Biosynthesis	0.014848749	carA // arcB // argG // pheA // PP_2036 // gatB // gatC // guaA // gltD // hisE // leuD // leuB // lpdG // proC // proI // PP_2528 // metE // trpA // iscS-I // glnA
+urea cycle	0.019546315	carA // argG // arcB
+Amino Acid Biosynthesis	0.021580651	carA // arcB // argG // pheA // leuD // leuB // PP_2036 // gatB // gatC // guaA // gltD // hisE // PP_0596 // lpdG // proC // proI // PP_2528 // metE // trpA // iscS-I // glnA
+L-methionine Degradation	0.023178522	ahcY // metK
+L-proline biosynthesis III (from L-ornithine)	0.023178522	proC // proI
+D-galacturonate degradation I	0.023178522	eda // kguK
+2-oxoglutarate decarboxylation to succinyl-CoA	0.023178522	lpdG // sucB
+choline degradation I	0.023178522	betA-II // betB
+Betaine Biosynthesis	0.023178522	betB // betA-II
+glycine betaine biosynthesis I (Gram-negative bacteria)	0.023178522	betB // betA-II
+TCA cycle I (prokaryotic)	0.03534715	icd // mqo1 // sucB // lpdG // fumC2
+TCA cycle	0.03534715	icd // mqo1 // sucB // lpdG // fumC2
+pentose phosphate pathway	0.041005805	pgl // rpiA // tal
+Pentose Phosphate Pathways	0.041005805	rpiA // tal // pgl
+L-arginine degradation VI (arginase 2 pathway)	0.043617535	proC // proI
+pentose phosphate pathway (non-oxidative branch)	0.043617535	rpiA // tal
+L-proline biosynthesis I	0.043617535	proC // proI
+Choline Degradation	0.043617535	betA-II // betB
+choline-<i>O</i>-sulfate degradation	0.043617535	betA-II // betB
